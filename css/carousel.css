@@ -1,0 +1,78 @@
+.carousel-inner .active.left
+ { left: -33%; }
+
+.carousel-inner .next
+    { left:  33%; }
+
+.carousel-inner .prev
+    { left: -33%; }
+
+.carousel-control.left,.carousel-control.right {
+	background-image:none;
+
+}
+
+.item:not(.prev)
+ {visibility: visible;}
+
+.item.right:not(.prev)
+ {visibility: hidden;}
+
+.rightest{ visibility: visible;}
+
+.carousel {
+	margin-top:40px ;
+	margin-bottom:40px;
+}
+
+.carousel-control .glyphicon-chevron-left {
+	left: -40px;
+	color: #949494;
+}
+
+.carousel-control .glyphicon-chevron-right {
+	right: -40px;
+	color: #949494;
+}
+
+.carousel-item {
+	padding-left:20px; 
+	padding-right:20px;
+}
+
+.carousel-box {
+	margin: 5px;
+	background-color: #fff;
+	border-bottom: 2px solid #337ab7;
+}
+
+.carousel-box i {
+	text-align: right;
+	padding-right: 20px;
+	color:#949494;
+}
+
+.carousel-img {
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-text {
+	padding: 10px 0px 20px 20px;
+}
+
+.carousel-text p {
+	margin-bottom: 0px
+}
+
+@media (max-width: 768px)  {
+	.carousel-control .glyphicon-chevron-left {
+		left: 0px;
+		height: 50px;
+	}	
+
+	.carousel-control .glyphicon-chevron-right {
+		right: 0px;
+	}
+}

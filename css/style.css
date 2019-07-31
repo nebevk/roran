@@ -1,0 +1,552 @@
+html, body {
+	width: 100%;
+    height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 41px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 29px;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+h1,h3 {
+	font-weight: 800;
+}
+
+p {
+	font-size: 20px;
+	color: #949494;
+}
+
+.blue {
+	color: #337ab7;
+}
+
+
+.sub-heading {
+	color: #949494;
+	margin-top: 0px;
+}
+
+.text-dark {
+	color: #333;
+}
+
+.text-light {
+	color: white;
+}
+
+.text-small {
+	font-size: 15px;
+}
+
+.text-smaller {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.gray-bg {
+	background-color: #f0f0f0;
+}
+
+.delete-right-margin {
+	margin-right: 0px;
+}
+
+header {
+	min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url(../img/header.jpg);
+    color: #fff;
+}
+
+hr {
+	width: 100px;
+}
+
+.hr-light {
+	border-top: 1px solid #fff;
+}
+
+
+.header-content h1 {
+	color: white;
+	font-size: 60px;
+	line-height: 0.8;
+	text-shadow: -3px 3px 4px rgba(150, 150, 150, 0.77);
+}
+
+.header-content h2 {
+	color: white;
+	font-size: 35px;
+	line-height: 0.8;
+	text-shadow: -3px 3px 4px rgba(150, 150, 150, 0.77);
+}
+
+.header-content p {
+	color: white;
+	font-size: 20px;
+	line-height: 1;
+	text-shadow: -3px 3px 4px rgba(150, 150, 150, 0.77);
+}
+
+.header-content span {
+	font-size: 10px;
+	font-style: italic;
+	line-height: 0.8;
+	text-shadow: -3px 3px 4px rgba(150, 150, 150, 0.77);
+	display: none;
+}
+
+.header-content hr {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	border-top: 2px solid rgb(255, 255, 255);
+	float: left;
+	width: 60%;
+	display: none;
+}
+
+.arrow {
+    position: absolute;
+    display: table-cell;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.arrow a {
+	color: #fff;
+	font-size: 35px;
+	opacity: .5;
+	transition: opacity 0.5s ease;
+ }
+
+.arrow a:hover {
+	opacity: 1;
+}
+
+.navbar {
+	padding: 10px 0;
+}
+
+.navbar-default {
+	background-color: white;
+	border-bottom: 2px #e7e7e7 solid;
+	border-radius:0px;
+}
+
+.navbar-brand {
+	color: #000;
+	font-size: 30px;
+	font-weight: 800;
+	text-align: center;
+}
+
+.navbar-nav li {
+	text-align: center;
+}
+
+.navbar-nav>.pull-right,
+.navbar-nav>.pull-left	{
+	display: none;
+}
+
+.about-text {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.about-blocks {
+	margin: 40px 0;
+	padding: 0 40px;
+}
+
+.about-blocks i {
+	font-size: 85px;
+	margin-bottom: 40px;
+}
+
+.about-heading {
+	margin-bottom: 40px;
+}
+
+.stats {
+	padding: 40px 0;
+	background-color: #f0f0f0;
+}
+
+.stats-blocks {
+	padding: 15px 15px 10px;
+}
+
+.stats-blocks i {
+	float: left;
+    padding: 0 10px;
+    font-size: 70px;
+    color: #337ab7;
+}
+
+.stats-text {
+	padding: 0 15px;
+    overflow: hidden;
+}
+
+.stats h1 {
+	margin:0;
+}
+
+.clients {
+	padding: 40px 0;
+	display: table;
+    width: 100%;
+    color: black;
+    background: url(../img/clients.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.clients img {
+	margin-top: 20px;
+	padding: 10px;
+	-webkit-filter: contrast(80);
+  	filter: contrast(80);
+  	margin: auto;
+}
+
+.services-container {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.services-blocks {
+	padding: 15px 15px 10px;
+}
+
+.services-blocks hr {
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.services-blocks i {
+	float: left;
+    padding: 10px;
+    font-size: 60px;
+    margin-right: 5px;
+    color: #337ab7;
+    text-align: right;
+    display: inline-block;
+    width: 80px;
+}
+
+.services-text {
+	padding: 0 15px;
+    overflow: hidden;
+}
+
+.quote {
+	display: table;
+    width: 100%;
+    color: black;
+    position: relative;
+    background: url(../img/quote.jpg) 50% 0 fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.quote:before {
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: " ";
+    position: absolute;
+    background: url(../img/gridtile.png) repeat;
+}
+
+
+.quote-text {
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.quote-icon {
+	opacity: 0.3;
+	font-size: 60px;
+	vertical-align: middle;
+}
+
+.quotation-mark {
+	opacity: 0.7;
+	font-size: 70px;
+}
+
+.team-container {
+	margin-top: 40px;
+}
+
+.triangle {
+	margin: 0 auto;
+	width: 0; 
+	height: 0; 
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	border-bottom: 35px solid #f0f0f0;
+}
+
+.triangle-white {
+	margin: 0 auto;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+}
+
+.team {
+	background-color: #f0f0f0;
+}
+
+.portfolio-container {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.contact-container {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+.roran {
+	height: 400px;
+	padding: 40px 0;
+	display: table;
+    width: 100%;
+    color: black;
+    background: url(../img/roran.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+     z-index:-1;
+}
+
+.roran-text {
+	text-align: center;
+}
+
+.roran-text>h1 {
+	padding: 10px;
+	background-color: white;
+	margin-top: 60px;
+	margin-bottom:0px;
+}
+
+.info-container {
+	padding-bottom: 40px;
+	padding-top:40px;
+	background-color: #fff;
+	position: relative;
+	top:-100px;
+}
+
+.info-blocks {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.info-label {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.info-text {
+	list-style: none;
+}
+
+.info-text i {
+	float: left;
+	font-size: 60px;
+	color: #337ab7;
+	padding: 0px 30px 5px 0px;
+    text-align: right;
+    display: inline-block;
+    width: 80px;
+}
+
+.info-text li {
+	margin-top: 50px;
+}
+
+@media (max-width: 768px)  {
+	.info-text {
+    	text-align: center;
+    	padding-left: 0px;
+    }
+    .info-text i {
+    	float: none;
+    	padding: 0px 0px 0px 0px;
+    	text-align: center;
+    }
+
+}
+
+input.form-control {
+	height: 50px;
+}
+
+input.form-control,
+textarea.form-control {
+	border-radius: 0px;
+	box-shadow: none;
+	margin-bottom: 20px;
+}
+
+input.btn-primary {
+	padding: 16px;
+	font-weight: bold;
+	color: #fff;
+    background-color: #337ab7;
+    border-radius: 0px;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+input.btn-primary:hover {
+	color: #337ab7;
+	background-color: #fff;
+}
+
+.mobile-footer {
+	position: relative;
+    bottom: 70px;
+}
+
+.mobile-footer .col-xs-3 {
+	text-align: center;
+}
+
+.mobile-footer i {
+	margin: auto;
+	padding: 0px 10px 30px 10px;
+	font-size: 45px;
+}
+
+footer {
+	background-color: #d8d8d8;
+}
+
+footer a {
+	color: #909090;
+	transition: all 0.5s ease;
+}
+
+footer a:hover {
+	color: #000;
+	background-color: #d8d8d8;
+}
+
+.copyright {
+	padding-top: 15px;
+    padding-bottom: 15px;
+    color: #909090;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+
+	header {
+    	min-height: 100%;
+	}
+
+	header .header-content {
+	    position: absolute;
+	    top: 30%;
+	    -webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    transform: translateY(-50%);
+	} 
+
+	.header-content h1 {
+		font-size: 120px;
+	}
+
+	.header-content h2 {
+		font-size: 70px;
+	}
+
+	.header-content p {
+		font-size: 40px;
+	}
+
+	.header-content span {
+		font-size: 20px;
+		display: inline-block;
+	}
+
+	.header-content hr {
+		display: inline-block;
+	}
+
+	.arrow {
+		display: table-cell;
+	}
+
+	.navbar-nav {
+		width: 100%;
+    	text-align: center;
+	}
+
+	.navbar-nav li {
+		font-size: 18px;
+		float: none;
+      	display: inline-block;
+	}
+
+	.navbar-nav>.pull-right,
+	.navbar-nav>.pull-left {
+		display: inline-block;
+	}
+
+	.navbar-brand {
+		display: inline-block;
+	}
+
+	.social {
+	font-size: 20px;
+	}
+
+	.mobile-footer {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.gray-bg {
+		background-color: white;
+	}
+}
